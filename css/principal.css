@@ -1,0 +1,217 @@
+.begin-banner{ /*contenedor inicio*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 800px;
+    width: 100%;
+    background-image: url(/images/BANNER.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.begin-banner h1{
+    margin-bottom: 200px;
+    padding: 30px 30px;
+    font-size: 62px;
+    border-radius: 10px;
+    -webkit-text-stroke: 1px  #cccccc;
+    transition: all .5s;
+}
+.begin-banner h1:hover{
+    color: #000000;
+    -webkit-text-stroke: 1px  #262626;
+    font-size: 65px;
+    margin-bottom: 195px;
+    background-color: rgba(255,255,255, 0.9);
+    
+}
+
+.begin-banner p{
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+.div-relleno{
+    height: 60px;
+    width: 100%;
+}
+
+
+/*TARJETAS*/
+
+.grid-container{
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    background-color: #440000;
+    color: #000000;
+    text-align: center;
+    margin: 0px;
+}
+
+.grid-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.AC-1-1, .AC-2-1{
+    width: 100%;
+}
+
+.AC-3-1{
+    width: 100%;
+}
+
+.grid-container div.element{
+    margin: 30px 10px;
+    width: 275px;
+    height: 400px;
+    font-size: 27px;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+.grid-container div.element h6{
+    margin-top: 12px;
+}
+
+.grid-container div.element hr{
+    margin-top: 10px;
+}
+
+/* BTN VER MÁS */
+
+#bottom-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-color: #440000;
+    height: 50px;
+}
+
+#bottom-more div{
+    width: auto;
+    height: auto;
+}
+
+#bottom-more div a{
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+    padding: 12px 10px;
+    background-color: rgba(255,255,255, 0.8);
+    border-radius: 100px;
+    transition: all .5s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#bottom-more div a:hover{
+    color: rgba(0,0,0, 1);
+    background-color: #ffffff;
+}
+
+/*SECTION UNO*/
+
+#intro div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    color: #000000;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#intro div p{
+    width: 87%;
+    margin: 20px 20px;
+    padding: 10px;
+}
+
+/* SECTION DOS */
+
+.divisor-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    background-color: #eeeeee;
+    color: #000000;
+    font-size: 33px;
+}
+
+/* .ACM1{
+    width: 625px;
+    height: auto;
+} */
+
+/* Estilos generales para la imagen Assassins creed Mirage */
+
+.ACM1 {
+    max-width: 625px;
+    height: auto;
+}
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 767px) {
+    .ACM1 {
+        width: 350px;
+        height: auto;
+    }
+
+    .section-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+        flex-direction: column;
+    }
+}
+
+/* Estilos para pantallas medianas (tabletas) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .ACM1 {
+        width: 400px;
+        height: auto;
+    }
+}
+
+/* Estilos para pantallas grandes (por ejemplo, ordenadores de escritorio) */
+@media (min-width: 1024px) {
+    .ACM1 {
+        width:625px;
+        height: auto;
+    }
+}
+
+
+.section-2{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.texto-section-2 h3{
+    margin: auto;
+    font-size: 30px;
+}
+
+.texto-section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-size: 20px;
+}
